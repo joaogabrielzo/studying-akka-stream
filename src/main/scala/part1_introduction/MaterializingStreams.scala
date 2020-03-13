@@ -1,4 +1,4 @@
-package part1
+package part1_introduction
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer

@@ -2,61 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7691bcee-d00d-4c76-8b41-2598688a83bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SideProjects/BroadcastTweets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SideProjects/LearningStreams.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SideProjects/StreamsQuickguide.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SideProjects/Tweets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SideProjects/TweetsStream.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part1.Introduction/BackPressure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part1.Introduction/FirstPrinciples.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part1.Introduction/MaterializingStreams.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part1.Introduction/OperatorFusion.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part2.Graphs/GraphBasics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part2.Graphs/MoreOpenGraphs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part2.Graphs/OpenGraphs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/akka-streams.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/akka-streams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/BidirectionalFlows.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphCycles.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphMaterializedValues.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2366c695a1058c9a44c9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2366c695a1058c9a44c9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2366c695a1058c9a44c9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6d65f8a76c9228ce2caf$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6d65f8a76c9228ce2caf.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6d65f8a76c9228ce2caf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8f7135f733d2d53741c6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8f7135f733d2d53741c6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8f7135f733d2d53741c6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c92ee986ebb9b95842fd$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c92ee986ebb9b95842fd.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c92ee986ebb9b95842fd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ddd3647602715125b546$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ddd3647602715125b546.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ddd3647602715125b546.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eec7c4febc5617b4e494$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eec7c4febc5617b4e494.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eec7c4febc5617b4e494.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part1/BackPressure.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part1/FirstPrinciples.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part1/MaterializingStreams.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part1/OperatorFusion.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part2/GraphBasics.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part2/MoreOpenGraphs.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part2/OpenGraphs.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part1.Introduction/BackPressure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part1_introduction/BackPressure.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part1.Introduction/FirstPrinciples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part1_introduction/FirstPrinciples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part1.Introduction/MaterializingStreams.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part1_introduction/MaterializingStreams.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part1.Introduction/OperatorFusion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part1_introduction/OperatorFusion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2.Graphs/GraphBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphBasics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2.Graphs/MoreOpenGraphs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/MoreOpenGraphs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2.Graphs/OpenGraphs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/OpenGraphs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/BackPressure$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/BackPressure$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/BackPressure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/FirstPrinciples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/FirstPrinciples$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/FirstPrinciples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/MaterializingStreams$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/MaterializingStreams$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/MaterializingStreams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/OperatorFusion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/OperatorFusion$SimpleActor$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/OperatorFusion$SimpleActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/OperatorFusion$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part1/OperatorFusion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/GraphBasics$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/GraphBasics$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/GraphBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/MoreOpenGraphs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/MoreOpenGraphs$Transaction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/MoreOpenGraphs$Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/MoreOpenGraphs$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/MoreOpenGraphs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/OpenGraphs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/OpenGraphs$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/part2/OpenGraphs.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +81,27 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala/part1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BroadcastTweets">
+  <component name="RunManager" selected="Application.GraphCycles">
+    <configuration name="BidirectionalFlows" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part2_graphs.BidirectionalFlows" />
+      <module name="akka-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2_graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BroadcastTweets" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="SideProjects.BroadcastTweets" />
       <module name="akka-streams" />
@@ -120,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part2.GraphBasics" />
+    <configuration name="GraphCycles" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part2_graphs.GraphCycles" />
       <module name="akka-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2.*" />
+          <option name="PATTERN" value="part2_graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoreOpenGraphs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part2.MoreOpenGraphs" />
+    <configuration name="GraphMaterializedValues" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part2.Graphs.GraphMaterializedValues" />
       <module name="akka-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenGraphs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part2.OpenGraphs" />
-      <module name="akka-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part2.*" />
+          <option name="PATTERN" value="part2.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphCycles" />
+        <item itemvalue="Application.BidirectionalFlows" />
+        <item itemvalue="Application.GraphMaterializedValues" />
         <item itemvalue="Application.BroadcastTweets" />
         <item itemvalue="Application.StreamsQuickguide" />
-        <item itemvalue="Application.MoreOpenGraphs" />
-        <item itemvalue="Application.OpenGraphs" />
-        <item itemvalue="Application.GraphBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +185,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3168207114892" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2216889288" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1244562550" />
       </map>
@@ -234,10 +217,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584106427276">
+    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584120581569">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1360.741@0.27.1360.741" timestamp="1584106427276" />
+    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1360.741@0.27.1360.741" timestamp="1584120581569" />
     <state x="363" y="125" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584103763909">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
@@ -246,33 +229,37 @@
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="502" y="263" width="356" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1360.741@0.27.1360.741" timestamp="1584010074145" />
-    <state width="1312" height="171" key="GridCell.Tab.0.bottom" timestamp="1584106749552">
+    <state width="1312" height="170" key="GridCell.Tab.0.bottom" timestamp="1584123011985">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1312" height="171" key="GridCell.Tab.0.bottom/0.27.1360.741@0.27.1360.741" timestamp="1584106749552" />
-    <state width="1312" height="171" key="GridCell.Tab.0.center" timestamp="1584106749552">
+    <state width="1312" height="170" key="GridCell.Tab.0.bottom/0.27.1360.741@0.27.1360.741" timestamp="1584123011985" />
+    <state width="1312" height="170" key="GridCell.Tab.0.center" timestamp="1584123011985">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1312" height="171" key="GridCell.Tab.0.center/0.27.1360.741@0.27.1360.741" timestamp="1584106749552" />
-    <state width="1312" height="171" key="GridCell.Tab.0.left" timestamp="1584106749551">
+    <state width="1312" height="170" key="GridCell.Tab.0.center/0.27.1360.741@0.27.1360.741" timestamp="1584123011985" />
+    <state width="1312" height="170" key="GridCell.Tab.0.left" timestamp="1584123011984">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1312" height="171" key="GridCell.Tab.0.left/0.27.1360.741@0.27.1360.741" timestamp="1584106749551" />
-    <state width="1312" height="171" key="GridCell.Tab.0.right" timestamp="1584106749552">
+    <state width="1312" height="170" key="GridCell.Tab.0.left/0.27.1360.741@0.27.1360.741" timestamp="1584123011984" />
+    <state width="1312" height="170" key="GridCell.Tab.0.right" timestamp="1584123011985">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1312" height="171" key="GridCell.Tab.0.right/0.27.1360.741@0.27.1360.741" timestamp="1584106749552" />
-    <state x="169" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1584018846956">
+    <state width="1312" height="170" key="GridCell.Tab.0.right/0.27.1360.741@0.27.1360.741" timestamp="1584123011985" />
+    <state x="169" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1584121493666">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="169" y="31" width="1022" height="737" key="SettingsEditor/0.27.1360.741@0.27.1360.741" timestamp="1584018846956" />
+    <state x="169" y="31" width="1022" height="737" key="SettingsEditor/0.27.1360.741@0.27.1360.741" timestamp="1584121493666" />
     <state x="452" y="180" width="446" height="450" key="chooseDestDirectoryDialog" timestamp="1584010073908">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="452" y="180" width="446" height="450" key="chooseDestDirectoryDialog/0.27.1360.741@0.27.1360.741" timestamp="1584010073908" />
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584103800219">
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584121566497">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1360.741@0.27.1360.741" timestamp="1584103800219" />
+    <state x="344" y="225" key="com.intellij.ide.util.TipDialog/0.27.1360.741@0.27.1360.741" timestamp="1584121566497" />
+    <state x="248" y="74" width="864" height="646" key="find.popup" timestamp="1584122933083">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state x="248" y="74" width="864" height="646" key="find.popup/0.27.1360.741@0.27.1360.741" timestamp="1584122933083" />
   </component>
 </project>
