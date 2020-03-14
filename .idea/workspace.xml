@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7691bcee-d00d-4c76-8b41-2598688a83bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part3_techniques/AdvancedBackpressure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part3_techniques/FaultTolerance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part3_techniques/IntegratingWithActors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part3_techniques/IntegratingWithExtServices.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SideProjects/BroadcastTweets.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/side_projects/BroadcastTweets.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SideProjects/LearningStreams.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/side_projects/LearningStreams.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SideProjects/StreamsQuickguide.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/side_projects/StreamsQuickguide.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SideProjects/Tweets.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/side_projects/Tweets.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SideProjects/TweetsStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/side_projects/TweetsStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2_graphs/BidirectionalFlows.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/BidirectionalFlows.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphCycles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphCycles.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphMaterializedValues.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2_graphs/GraphMaterializedValues.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +34,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +62,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1YyblqCrmswZYujdBGZkvk46IKh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,13 +82,13 @@
       <recent name="part1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoreOpenGraphs">
-    <configuration name="BackPressure" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part1.BackPressure" />
+  <component name="RunManager" selected="Application.FaultTolerance">
+    <configuration name="AdvancedBackpressure" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part3_techniques.AdvancedBackpressure" />
       <module name="akka-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part1.*" />
+          <option name="PATTERN" value="part3_techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +96,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part2.GraphBasics" />
+    <configuration name="FaultTolerance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part3_techniques.FaultTolerance" />
       <module name="akka-streams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part2.*" />
+          <option name="PATTERN" value="part3_techniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegratingWithActors" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part3_techniques.IntegratingWithActors" />
+      <module name="akka-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3_techniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegratingWithExtServices" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part3_techniques.IntegratingWithExtServices" />
+      <module name="akka-streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3_techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,39 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenGraphs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part2.OpenGraphs" />
-      <module name="akka-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorFusion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="part1.OperatorFusion" />
-      <module name="akka-streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FaultTolerance" />
+        <item itemvalue="Application.AdvancedBackpressure" />
+        <item itemvalue="Application.IntegratingWithExtServices" />
+        <item itemvalue="Application.IntegratingWithActors" />
         <item itemvalue="Application.MoreOpenGraphs" />
-        <item itemvalue="Application.OpenGraphs" />
-        <item itemvalue="Application.GraphBasics" />
-        <item itemvalue="Application.BackPressure" />
-        <item itemvalue="Application.OperatorFusion" />
       </list>
     </recent_temporary>
   </component>
@@ -182,26 +215,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584188470456">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state x="413" y="155" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.27.1360.741@0.27.1360.741" timestamp="1584188470456" />
     <state x="502" y="263" width="356" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584010074145">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="502" y="263" width="356" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1360.741@0.27.1360.741" timestamp="1584010074145" />
-    <state width="1310" height="159" key="GridCell.Tab.0.bottom" timestamp="1584093236313">
+    <state x="204" y="27" width="941" height="741" key="CommitChangelistDialog2" timestamp="1584188962436">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1310" height="159" key="GridCell.Tab.0.bottom/0.27.1360.741@0.27.1360.741" timestamp="1584093236313" />
-    <state width="1310" height="159" key="GridCell.Tab.0.center" timestamp="1584093236313">
+    <state x="204" y="27" width="941" height="741" key="CommitChangelistDialog2/0.27.1360.741@0.27.1360.741" timestamp="1584188962436" />
+    <state width="1310" height="152" key="GridCell.Tab.0.bottom" timestamp="1584188962490">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1310" height="159" key="GridCell.Tab.0.center/0.27.1360.741@0.27.1360.741" timestamp="1584093236313" />
-    <state width="1310" height="159" key="GridCell.Tab.0.left" timestamp="1584093236313">
+    <state width="1310" height="152" key="GridCell.Tab.0.bottom/0.27.1360.741@0.27.1360.741" timestamp="1584188962490" />
+    <state width="1310" height="152" key="GridCell.Tab.0.center" timestamp="1584188962490">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1310" height="159" key="GridCell.Tab.0.left/0.27.1360.741@0.27.1360.741" timestamp="1584093236313" />
-    <state width="1310" height="159" key="GridCell.Tab.0.right" timestamp="1584093236313">
+    <state width="1310" height="152" key="GridCell.Tab.0.center/0.27.1360.741@0.27.1360.741" timestamp="1584188962490" />
+    <state width="1310" height="152" key="GridCell.Tab.0.left" timestamp="1584188962490">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state width="1310" height="159" key="GridCell.Tab.0.right/0.27.1360.741@0.27.1360.741" timestamp="1584093236313" />
+    <state width="1310" height="152" key="GridCell.Tab.0.left/0.27.1360.741@0.27.1360.741" timestamp="1584188962490" />
+    <state width="1310" height="152" key="GridCell.Tab.0.right" timestamp="1584188962490">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state width="1310" height="152" key="GridCell.Tab.0.right/0.27.1360.741@0.27.1360.741" timestamp="1584188962490" />
     <state x="169" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1584018846956">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
